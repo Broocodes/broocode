@@ -82,7 +82,7 @@ export default function Footer() {
 							<br />
 							Aligarh
 							<br />
-							+91987654321
+							+91 8938850519
 						</address>
 					</div>
 				</div>
@@ -99,19 +99,19 @@ export default function Footer() {
 						<Link href="/terms" className="hover:text-gray-300">
 							Terms & Conditions
 						</Link>
-						<span>© 2024 Ask CoolCliq. All rights reserved.</span>
+						<span>© 2024 Ask BrooCode. All rights reserved.</span>
 					</div>
 
 					<div className="flex gap-6">
-						<Link href="https://linkedin.com" className="text-gray-400 hover:text-white">
+						<Link href="https://www.linkedin.com/company/broocode" className="text-gray-400 hover:text-white">
 							<Linkedin className="w-6 h-6" />
 							<span className="sr-only">LinkedIn</span>
 						</Link>
-						<Link href="https://instagram.com" className="text-gray-400 hover:text-white">
+						<Link href="https://www.instagram.com/broocode.grow/" className="text-gray-400 hover:text-white">
 							<Instagram className="w-6 h-6" />
 							<span className="sr-only">Instagram</span>
 						</Link>
-						<Link href="https://github.com" className="text-gray-400 hover:text-white">
+						<Link href="https://github.com/Broocodes" className="text-gray-400 hover:text-white">
 							<Github className="w-6 h-6" />
 							<span className="sr-only">GitHub</span>
 						</Link>

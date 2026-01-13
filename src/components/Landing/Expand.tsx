@@ -28,40 +28,41 @@ export default function Expand() {
   ];
 
   return (
-	<div className="w-full p-10 bg-zinc-200"> 
-    <div style={{ maxWidth: "1200px", margin: "auto" }} >
+	<div className="w-full p-4 md:p-8 lg:p-12 bg-accentColor border-t-8 border-b-8 border-myblack"> 
+    <div className="max-w-6xl mx-auto space-y-4 md:space-y-6">
       {sections.map((section) => (
         <motion.div
           key={section.id}
-          initial={{ height: "60px" }}
+          initial={{ height: "80px" }}
           animate={{
-            height: expanded === section.id ? "auto" : "60px",
+            height: expanded === section.id ? "auto" : "80px",
           }}
           transition={{ duration: 0.5, ease: "easeInOut" }}
           style={{
             overflow: "hidden",
-            background: expanded === section.id ? "white" : "#111",
-            color: expanded === section.id ? "black" : "white",
-            borderRadius: "8px",
-            marginBottom: "10px",
-            padding: expanded === section.id ? "20px" : "60px",
-            cursor: "pointer",
+            background: expanded === section.id ? "#121212" : "#121212",
+            color: expanded === section.id ? "#A2F23E" : "#A2F23E",
+            border: "8px solid #A2F23E",
+            boxShadow: expanded === section.id ? "8px 8px 0px 0px rgba(162,242,62,1)" : "4px 4px 0px 0px rgba(162,242,62,1)",
           }}
           onClick={() => setExpanded(section.id)}
-		  className="flex flex-col md:flex-row justify-between items-center "
+		  className="flex flex-col md:flex-row justify-between items-start md:items-center cursor-pointer hover:shadow-[8px_8px_0px_0px_rgba(162,242,62,1)] transition-all"
         >
-          <h2 className="font-guzan text-4xl  " style={{ margin: 0 }}>{section.title}</h2>
-          {expanded === section.id && (
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.3 }}
-              style={{ marginTop: "10px" }}
-			  className="md:w-[50%] font-inter font-semibold text-lg"
-            >
-              {section.content}
-            </motion.p>
-          )}
+          <div className="p-4 md:p-6 lg:p-8 w-full">
+            <h2 className="font-guzan text-3xl md:text-4xl lg:text-5xl font-bold mb-0 md:mb-0" style={{ margin: 0 }}>
+              {section.title}
+            </h2>
+            {expanded === section.id && (
+              <motion.p
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
+                className="mt-4 md:mt-6 md:w-[85%] lg:w-[75%] font-inter font-semibold text-base md:text-lg lg:text-xl leading-relaxed"
+              >
+                {section.content}
+              </motion.p>
+            )}
+          </div>
         </motion.div>
       ))}
     </div>

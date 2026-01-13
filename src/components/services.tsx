@@ -6,9 +6,9 @@ import { ArrowUpRight } from "lucide-react";
 
 export const HoverImageLinks = () => {
   return (
-    <section className="bg-myblack p-4 md:p-8">
+    <section className="bg-myblack p-4 md:p-8 lg:p-12 border-t-8 border-b-8 border-accentColor">
       <div className="mx-auto max-w-5xl">
-		<h1 className="text-3xl md:text-3xl font-guzan text-white text-center">We Work With</h1>
+		<h1 className="text-3xl md:text-4xl lg:text-5xl font-guzan text-accentColor text-center font-bold mb-8 md:mb-12">We Work With</h1>
         <Link
           heading="Hicks India"
           subheading="Learn what we do here"
@@ -88,7 +88,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
       onMouseMove={handleMouseMove}
       initial="initial"
       whileHover="whileHover"
-      className="group relative flex items-center justify-between border-b-2 border-neutral-700 py-4 transition-colors duration-500 hover:border-neutral-50 md:py-8"
+      className="group relative flex items-center justify-between border-b-4 md:border-b-8 border-accentColor bg-myblack py-6 md:py-8 transition-all duration-300 hover:bg-accentColor hover:border-myblack"
     >
       <div>
         <motion.span
@@ -101,7 +101,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block font-guzan text-4xl font-bold text-neutral-300 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl"
+          className="relative z-10 block font-guzan text-3xl md:text-5xl lg:text-6xl font-bold text-accentColor transition-colors duration-300 group-hover:text-myblack"
         >
           {heading.split("").map((l, i) => (
             <motion.span
@@ -117,7 +117,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
             </motion.span>
           ))}
         </motion.span>
-        <span className="relative z-10 mt-2 block font-inter text-base text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50">
+        <span className="relative z-10 mt-2 block font-inter text-sm md:text-base text-gray-400 transition-colors duration-300 group-hover:text-myblack font-semibold">
           {subheading}
         </span>
       </div>
@@ -135,7 +135,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
         }}
         transition={{ type: "spring" }}
         src={imgSrc}
-        className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64"
+        className="absolute z-0 h-24 w-32 border-4 border-myblack object-cover md:h-48 md:w-64 shadow-[4px_4px_0px_0px_rgba(18,18,18,1)]"
         alt={`Image representing a link for ${heading}`}
       />
 
@@ -153,7 +153,7 @@ const Link = ({ heading, imgSrc, subheading, href }: LinkProps) => {
         transition={{ type: "spring" }}
         className="relative z-10 p-4"
       >
-        <ArrowUpRight  className="text-5xl text-neutral-50" />
+        <ArrowUpRight  className="text-4xl md:text-5xl text-accentColor group-hover:text-myblack transition-colors" />
       </motion.div>
     </motion.a>
   );

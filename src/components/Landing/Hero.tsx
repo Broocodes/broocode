@@ -20,19 +20,30 @@ export default function Hero() {
 
 			<div className='w-full flex justify-evenly'>
 				<div></div>
-				<div className='mt-10 flex '>
-					<Link href={'/blogs'} className='text-xs p-2 px-3 font-semibold font-inter   bg-myblack text-white flex  gap-x-2 hover:text-accentColor items-center rounded-full '> Blogs</Link>
-					<button className='text-xs p-2 px-3 font-semibold font-inter border-2 border-accentColor  bg-myblack text-accentColor flex  gap-x-2 items-center rounded-full '>  Get in Touch <Lightbulb size={18} /></button>
+				<div className='mt-6 md:mt-10 gap-x-3 md:gap-x-4 flex'>
+					<Link 
+						href={'/blogs'} 
+						className='text-xs md:text-sm p-2 md:p-3 px-4 md:px-5 font-bold font-inter bg-accentColor text-myblack border-4 border-myblack flex gap-x-2 hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all items-center'
+					> 
+						Blogs
+					</Link>
+
+					<Link 
+						href={'/contact'} 
+						className='text-xs md:text-sm p-2 md:p-3 px-4 md:px-5 font-bold font-inter border-4 border-accentColor bg-myblack text-accentColor flex gap-x-2 hover:bg-accentColor hover:text-myblack hover:shadow-[4px_4px_0px_0px_rgba(162,242,62,1)] transition-all items-center'
+					>  
+						Get in Touch <Lightbulb size={18} />
+					</Link>
 				</div>
 			</div>
 
 
-			<div>
-				<h1 className=' hidden  text-6xl mt-2 md:text-9xl font-guzan md:flex  items-center text-accent'>Br
+			<div className='px-4'>
+				<h1 className='hidden text-5xl md:text-8xl lg:text-9xl mt-2 font-guzan md:flex items-center text-white font-bold tracking-tight'>Br
 					<Image src='/infinity.png' className='mr-1' width={180} height={180} alt='infi' />
 					Code</h1>
 				<Image src='/logo.svg' className='md:hidden flex mx-auto' width={290} height={290} alt='logo' />
-				<h1 className='text-white text-center font-guzan text-2xl md:text-4xl'>We Are Digital Agency</h1>
+				<h1 className='text-white text-center font-guzan text-2xl md:text-4xl lg:text-5xl font-bold mt-2'>We Are Digital Agency</h1>
 			</div>
 			<Astro />
 		</div>

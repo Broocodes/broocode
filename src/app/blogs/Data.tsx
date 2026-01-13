@@ -21,7 +21,7 @@ export const Blogs: Blog[] = [
 		_id: "1",
 		title: "Top 6 Digital Agency",
 		description: "So in this Blog I Show What Actuley is Digital Agency Top in Uttarpradesh add more Creative",
-		content: `<h3 style="text-align: left;"><b>&nbsp;10 Best Digital Marketing Agencies in Uttar Pradesh [2025]</b></h3><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-JDWE0e0OsASj9oY8026HP"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-eYCrSYumAs7skOar6edfO">Uttar Pradesh (UP) has emerged as a significant hub for digital marketing, with numerous agencies offering a range of services to enhance online presence and business growth. This document highlights the top digital marketing agencies in UP, known for their exceptional services and innovative strategies that cater to diverse client needs.</p><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-vz6BDUn7mIdV73135JUK1"></p><h1 data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-xdD1kxxfpjtMWV89G1ngL">1. CoolCliq Digital Marketing</h1><h1 data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-rOkNY40Y8uY8csVONmkUR"><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-fsh4jXvtEX6sY4ER2H0X4" style="font-size: medium; font-weight: 400;"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-ruPlIS6uK8cNpYZjd86kf" style="font-size: medium; font-weight: 400;">CoolCliq Digital Marketing has quickly risen to prominence in the digital marketing landscape. They focus on innovative strategies and personalized marketing solutions to help businesses achieve their goals. Their services include SEO, social media management, and content marketing, making them a top choice for businesses looking to enhance their online presence.</p></h1><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-MOxoHRXvOnSQcdbGBOw_t"></p><h1 data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-PI8rzZrZ2z1HdsXZY94v8">2. eSearch Logix Technologies</h1><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-aUcvr_8CYTwEGNGZnK_fB"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-XltwqVB53Bn6IxNGJLYU-">eSearch Logix Technologies is a premier Google partner company offering comprehensive internet marketing services. They utilize advanced technologies and agile methodologies to drive business growth, specializing in areas such as SEO, SEM, and social media marketing. [Learn more](https://www.topdevelopers.co/directory/digital-marketing-companies-in-uttar-pradesh?utm_source=chatgpt.com)</p><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-IPWHeHbACwieKlFf5UsT8"></p><h1 data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-a6bOALj_LbOIpEpgjLiCA">3. Digital Jugglers</h1><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-SA2kR1zRQOWJFCYZIr7cs"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-ebKhgErxtoUiIuJH0IYmO">Based in Lucknow, Digital Jugglers is a full-service digital marketing company passionate about discovering what lies at the heart of great businesses. They offer a unified approach to digital branding and marketing strategy, leveraging their expertise to benefit clients. [Learn more](https://digitaljugglers.com/?utm_source=chatgpt.com)</p><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-Jf5SVa8EopK5ZlgkRMNwp"></p><h1 data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-FAgcGxT3VFQvCg7Io_HhX">4. Better Graph</h1><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-h5Pt6OLEI04OK30trFkpm"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-rDEfGw1GpGUGC-HljEUZE">Better Graph helps businesses revitalize their digital strategies with innovative online advertising solutions. They ideate new strategies and implement various advertising plans to enhance online visibility and engagement. [Learn more](https://www.topdevelopers.co/directory/digital-marketing-companies-in-uttar-pradesh?utm_source=chatgpt.com)</p><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-hBc3rEV0RHpby6BZTVGTd"></p><h1 data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-Ws7lFcuoh4u3ENsDyOvtV">5. MoxiWeb</h1><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-E5pg2IVU_bZahpxpWhtNy"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-VQOOcmB0QMFj7vHsZnENv">MoxiWeb is a professional digital branding firm with over six years of experience, having catered to more than 4,850 customers. They are recognized for their expertise in digital branding and marketing services, including web design and development. [Learn more](https://www.topdevelopers.co/directory/digital-marketing-companies-in-uttar-pradesh?utm_source=chatgpt.com)</p><h1 data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-rOkNY40Y8uY8csVONmkUR">6. BrandBurp Digital</h1><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-B4DiepiLtq_pQv0UJP8iW"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-uBOJfmsJdKounNuIKPg0F">BrandBurp Digital is a leading advertising and marketing agency that has assisted over 2,000 brands in enhancing their business growth. Their core services include SEO, PPC, and app advertising, tailored to meet diverse client needs. [Learn more](https://www.topdevelopers.co/directory/digital-marketing-companies-in-uttar-pradesh?utm_source=chatgpt.com)</p><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-ZUdhb_M-yx32tTNgmuksj"></p><p data-bubble-menu="true" data-hook-type="blockHook" dir="ltr" id="bh-qWbZk5F7lD9c-DSXyYf7e">These agencies have established themselves as leaders in the digital marketing landscape of Uttar Pradesh, offering tailored solutions to meet the unique needs of businesses across various industries.</p><p data-bubble-menu="true" data-hook-type="blockHook" id="bh-SxwT5mr3ePM2qW-5VTpK3"><br /></p>`,
+		content: `<h3 style="text-align: left;"><b>&nbsp;10 Best Digital Marketing Agencies in Uttar Pradesh [2025]</b></h3><p>Uttar Pradesh (UP) has emerged as a significant hub for digital marketing, with numerous agencies offering a range of services to enhance online presence and business growth. This document highlights the top digital marketing agencies in UP, known for their exceptional services and innovative strategies that cater to diverse client needs.</p><h1>1. CoolCliq Digital Marketing</h1><p>CoolCliq Digital Marketing has quickly risen to prominence in the digital marketing landscape. They focus on innovative strategies and personalized marketing solutions to help businesses achieve their goals. Their services include SEO, social media management, and content marketing, making them a top choice for businesses looking to enhance their online presence.</p><h1>2. eSearch Logix Technologies</h1><p>eSearch Logix Technologies is a premier Google partner company offering comprehensive internet marketing services. They utilize advanced technologies and agile methodologies to drive business growth, specializing in areas such as SEO, SEM, and social media marketing.</p><h1>3. Digital Jugglers</h1><p>Based in Lucknow, Digital Jugglers is a full-service digital marketing company passionate about discovering what lies at the heart of great businesses. They offer a unified approach to digital branding and marketing strategy, leveraging their expertise to benefit clients.</p><h1>4. Better Graph</h1><p>Better Graph helps businesses revitalize their digital strategies with innovative online advertising solutions. They ideate new strategies and implement various advertising plans to enhance online visibility and engagement.</p><h1>5. MoxiWeb</h1><p>MoxiWeb is a professional digital branding firm with over six years of experience, having catered to more than 4,850 customers. They are recognized for their expertise in digital branding and marketing services, including web design and development.</p><h1>6. BrandBurp Digital</h1><p>BrandBurp Digital is a leading advertising and marketing agency that has assisted over 2,000 brands in enhancing their business growth. Their core services include SEO, PPC, and app advertising, tailored to meet diverse client needs.</p><p>These agencies have established themselves as leaders in the digital marketing landscape of Uttar Pradesh, offering tailored solutions to meet the unique needs of businesses across various industries.</p>`,
 		coverImage: {
 			publicId: "sample-id",
 			url: "https://cdn.dribbble.com/userupload/15952804/file/original-6ce78ab3587e12f6edf6be9bb929565a.jpg?resize=1024x768&vertical=center"
@@ -29,71 +29,159 @@ export const Blogs: Blog[] = [
 		category: ["Agency"],
 		likes: [],
 		comments: [],
-		owner: "user1",
-		created_at: new Date().toISOString(),
-		updated_at: new Date().toISOString()
+		owner: "BrooCode Team",
+		created_at: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
+		updated_at: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString()
 	},
 	{
 		_id: "2",
 		title: "10 Marketing Blogs for India Industry News and Trends—2025 List",
 		description: "Explore these marketing blogs to stay updated on the latest industry news and trends in India for 2025.",
-		content: `
-    <h3><b>10 Marketing Blogs for India Industry News and Trends—2025 List</b></h3>
+		content: `<h3><b>10 Marketing Blogs for India Industry News and Trends—2025 List</b></h3>
     <p>Marketing blogs can be an excellent resource for professionals looking for the most current tips and takes on the marketing industry. Much like the industry itself, marketing blogs may cover various topics whilst focusing on various points of the customer journey.</p>
-    <p>Below, we've outlined 10 marketing blogs (and a few honourable mentions) that:</p>
-    <ul>
-      <li>Offer high-quality and relevant content for a well-defined audience</li>
-      <li>Are updated regularly</li>
-      <li>Feature attractive and user-friendly designs</li>
-      <li>Are easily found on search engines</li>
-      <li>Are well-regarded by industry experts</li>
-    </ul>
-    <p>Topics range from the broad basics to industry news and from digital marketing to advanced search engine optimisation (SEO) analysis. Explore these resources to stay current on the marketing industry at large.</p>
+    <p>Below, we've outlined 10 marketing blogs (and a few honourable mentions) that offer high-quality and relevant content for a well-defined audience, are updated regularly, feature attractive and user-friendly designs, are easily found on search engines, and are well-regarded by industry experts.</p>
     <h4>1. Marketing basics blog: HubSpot Marketing Blog</h4>
     <p><b>Good for:</b> People looking to build a marketing strategy</p>
-    <p>The HubSpot Marketing Blog is full of approachable how-tos and explainers geared towards professionals building their marketing strategy, campaign, or team. Updated semi-regularly, this site is full of resources to help maximise your team’s efforts and general knowledge base, and complements HubSpot’s other offerings, including their software, marketing trend reports, and resources.</p>
-    <p><b>Honourable mention:</b> Digital Deepak</p>
-    <p>Digital Deepak, authored by Deepak Kanakaraju, offers tips on running a digital business. The blog updates two to three times per month, and email subscription service is available.</p>
+    <p>The HubSpot Marketing Blog is full of approachable how-tos and explainers geared towards professionals building their marketing strategy, campaign, or team. Updated semi-regularly, this site is full of resources to help maximise your team's efforts and general knowledge base.</p>
     <h4>2. Marketing news blog: Campaign</h4>
-    <p><b>Good for:</b> People who like to be the first to know about marketing news and want a near-constant stream of information</p>
+    <p><b>Good for:</b> People who like to be the first to know about marketing news</p>
     <p>Campaign is a news blog covering advertising, marketing, and digital marketing. It offers an opinion section and news about events and awards. It has a news site layout with dropdown menus and a search function, making finding information on specific topics easy.</p>
-    <p><b>Honourable mention:</b> Search Engine Journal</p>
-    <p>Search Engine Journal is a popular blog that focuses on the latest developments in the world of search engine optimisation. It has news sections on general SEO, international search, pay-per-click (PPC), and social media.</p>
     <h4>3. Marketing industry blog: AdGully</h4>
     <p><b>Good for:</b> People seeking current marketing campaign and industry news and analysis</p>
-    <p>AdGully explores all aspects of marketing and advertising, offering a wide range of topics of interest to India and internationally. It hosts its own events, bringing many industries together throughout the year. The blog is updated regularly with news and editorials, highlighting the most current articles on the landing page.</p>
-    <h4>4. Digital marketing blog: Afaqs</h4>
-    <p><b>Good for:</b> Digital marketers looking to think critically about the industry</p>
-    <p>Afaqs is one of the most popular marketing blogs in India. It offers readers the latest digital marketing news, including interviews with top marketers, guest articles, and information about media types such as television, streaming, print, and radio. The news section covers advertising and marketing, brands and content, and company profiles. Content is added regularly, and sections with dropdown menus provide easy navigation. Viewers also can easily browse the latest content thanks to convenient tags.</p>
-    <h4>5. Content marketing blog: Talkwalker</h4>
-    <p><b>Good for:</b> People looking to advance their content marketing skills and stay up to date on industry trends</p>
-    <p>Talkwalker is among the go-to places if you’re looking to advance your content marketing skills. In addition to covering topics such as industry trends, marketing strategy, analytics, SEO, social media, and content creation in blog posts, the company reviews tools. It publishes case study reviews as well as how-to guides for content marketers.</p>
-    <h4>6. Social media marketing blog: Social Samosa</h4>
-    <p><b>Good for:</b> Social media marketers wanting to stay up to date on platform news</p>
-    <p>Social Samosa is a social media marketing blog highlighting news, campaigns, industry interviews, and platform updates. It offers insights into the latest trends and strategies in social media marketing, making it a valuable resource for professionals in the field.</p>
-    <h4>7. SEO marketing blog: Moz Blog</h4>
-    <p><b>Good for:</b> Individuals seeking to deepen their understanding of SEO</p>
-    <p>The Moz Blog provides in-depth articles on SEO, link building, and search engine updates. It offers practical advice and insights from industry experts, helping readers enhance their SEO strategies and stay updated on best practices.</p>
-    <h4>8. Content creation blog: Copyblogger</h4>
-    <p><b>Good for:</b> Writers and marketers focused on improving content quality</p>
-    <p>Copyblogger offers insights into content creation, copywriting, and content marketing strategies. It provides tips and techniques to craft compelling content that engages audiences and drives conversions.</p>
-    <h4>9. Analytics and data-driven marketing blog: Occam's Razor by Avinash Kaushik</h4>
-    <p><b>Good for:</b> Marketers interested in analytics and data-driven decision making</p>
-    <p>Occam's Razor delves into web analytics, data analysis, and the importance of data in marketing strategies. Avinash Kaushik shares his expertise on making informed decisions based on data insights.</p>
-    <h4>10. Email marketing blog: Email Monday</h4>
-    <p><b>Good for:</b> Professionals looking to enhance their email marketing campaigns</p>
-    <p>Email Monday focuses on email marketing strategies, trends, and best practices. It offers insights into creating effective email campaigns that resonate with subscribers and achieve marketing goals.</p>`,
+    <p>AdGully explores all aspects of marketing and advertising, offering a wide range of topics of interest to India and internationally. It hosts its own events, bringing many industries together throughout the year.</p>`,
 		coverImage: {
 			publicId: "coursera-marketing-blogs-2025",
 			url: "https://cdn.dribbble.com/userupload/16628783/file/original-97c54ce819996b762eee022b33df75a2.png?resize=1024x768&vertical=center"
 		},
-		category: ["Agency"],
+		category: ["Marketing"],
 		likes: [],
 		comments: [],
-		owner: "user1",
+		owner: "BrooCode Team",
+		created_at: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000).toISOString(),
+		updated_at: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000).toISOString()
+	},
+	{
+		_id: "3",
+		title: "How to Choose the Right Digital Agency for Your Business in 2025",
+		description: "A comprehensive guide to selecting the perfect digital agency that aligns with your business goals and budget.",
+		content: `<h2><b>How to Choose the Right Digital Agency for Your Business in 2025</b></h2>
+    <p>Selecting the right digital agency is crucial for your business's online success. With countless agencies claiming to be the best, how do you make the right choice? This guide will walk you through the essential factors to consider.</p>
+    <h3>1. Define Your Goals and Budget</h3>
+    <p>Before you start searching, clearly define what you want to achieve. Are you looking for website development, SEO services, social media management, or a complete digital transformation? Set a realistic budget that aligns with your business size and goals.</p>
+    <h3>2. Evaluate Their Portfolio and Case Studies</h3>
+    <p>A strong portfolio demonstrates an agency's capabilities. Look for case studies that show measurable results. Check if they've worked with businesses similar to yours and achieved success in your industry.</p>
+    <h3>3. Check Their Expertise and Services</h3>
+    <p>Ensure the agency offers the services you need. Whether it's web development, app creation, digital marketing, or custom software solutions, verify they have the expertise in your required areas.</p>
+    <h3>4. Communication and Transparency</h3>
+    <p>Good communication is key to a successful partnership. During initial consultations, assess how well they understand your needs and how transparent they are about processes, timelines, and pricing.</p>
+    <h3>5. Technology Stack and Innovation</h3>
+    <p>In 2025, technology evolves rapidly. Choose an agency that stays updated with the latest tools and technologies. They should be able to recommend modern solutions that give you a competitive edge.</p>
+    <h3>6. Reviews and Testimonials</h3>
+    <p>Read client reviews and testimonials. Reach out to past clients if possible to get honest feedback about their experience working with the agency.</p>
+    <p>By following these steps, you'll be well-equipped to choose a digital agency that can drive your business forward in the digital landscape.</p>`,
+		coverImage: {
+			publicId: "choose-digital-agency",
+			url: "https://cdn.dribbble.com/userupload/32296481/file/original-f4e16c755fb54fd64e6996e68579c6e6.png?resize=1024x800&vertical=center"
+		},
+		category: ["Strategy", "Agency"],
+		likes: [],
+		comments: [],
+		owner: "BrooCode Team",
+		created_at: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
+		updated_at: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString()
+	},
+	{
+		_id: "4",
+		title: "The Future of Web Development: Trends to Watch in 2025",
+		description: "Explore the latest web development trends that will shape the digital landscape in 2025 and beyond.",
+		content: `<h2><b>The Future of Web Development: Trends to Watch in 2025</b></h2>
+    <p>Web development continues to evolve at a rapid pace. As we move through 2025, several trends are shaping how websites are built and experienced. Here are the key trends every business owner and developer should know.</p>
+    <h3>1. AI-Powered Development</h3>
+    <p>Artificial Intelligence is revolutionizing web development. From AI-assisted coding to intelligent chatbots and personalized user experiences, AI is becoming an integral part of modern web applications.</p>
+    <h3>2. Progressive Web Apps (PWAs)</h3>
+    <p>PWAs combine the best of web and mobile apps, offering offline functionality, push notifications, and app-like experiences. They're becoming the standard for businesses looking to provide seamless user experiences across devices.</p>
+    <h3>3. Serverless Architecture</h3>
+    <p>Serverless computing is gaining traction, allowing developers to build and run applications without managing servers. This approach offers scalability, cost-effectiveness, and faster deployment times.</p>
+    <h3>4. Headless CMS</h3>
+    <p>Headless CMS solutions are on the rise, providing flexibility to deliver content across multiple platforms. This architecture separates content management from presentation, enabling more dynamic and flexible websites.</p>
+    <h3>5. Enhanced Security Measures</h3>
+    <p>With increasing cyber threats, security is paramount. Modern web development emphasizes security-first approaches, including regular updates, encryption, and compliance with data protection regulations.</p>
+    <h3>6. Performance Optimization</h3>
+    <p>Page speed and performance remain critical. Developers are focusing on Core Web Vitals, lazy loading, code splitting, and other optimization techniques to ensure fast, responsive websites.</p>
+    <p>Staying ahead of these trends ensures your web presence remains competitive and provides the best possible experience for your users.</p>`,
+		coverImage: {
+			publicId: "web-dev-trends-2025",
+			url: "https://cdn.dribbble.com/userupload/23531650/file/original-1075a0a98953616197ca3853a27fa1e2.jpg?resize=752x564&vertical=center"
+		},
+		category: ["Technology", "Web Development"],
+		likes: [],
+		comments: [],
+		owner: "BrooCode Team",
+		created_at: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
+		updated_at: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString()
+	},
+	{
+		_id: "5",
+		title: "Digital Marketing Strategies That Drive Real Results in 2025",
+		description: "Learn proven digital marketing strategies that deliver measurable results and ROI for your business.",
+		content: `<h2><b>Digital Marketing Strategies That Drive Real Results in 2025</b></h2>
+    <p>In today's competitive digital landscape, having a solid marketing strategy is essential. Here are proven strategies that deliver real, measurable results for businesses of all sizes.</p>
+    <h3>1. Content Marketing Excellence</h3>
+    <p>Quality content remains king. Create valuable, relevant content that addresses your audience's pain points. Blog posts, videos, infographics, and case studies can establish your authority and drive organic traffic.</p>
+    <h3>2. SEO Optimization</h3>
+    <p>Search Engine Optimization is fundamental. Focus on keyword research, on-page optimization, technical SEO, and building quality backlinks. Local SEO is especially important for businesses targeting specific geographic areas.</p>
+    <h3>3. Social Media Marketing</h3>
+    <p>Engage with your audience on platforms where they spend time. Develop a consistent posting schedule, create engaging content, and interact with your followers. Each platform requires a tailored approach.</p>
+    <h3>4. Email Marketing Automation</h3>
+    <p>Email marketing continues to deliver high ROI. Use automation to send personalized messages, nurture leads, and re-engage customers. Segment your audience for more targeted campaigns.</p>
+    <h3>5. Pay-Per-Click (PPC) Advertising</h3>
+    <p>PPC campaigns on Google Ads and social media platforms can drive immediate results. Focus on keyword research, compelling ad copy, and landing page optimization to maximize conversions.</p>
+    <h3>6. Analytics and Data-Driven Decisions</h3>
+    <p>Track your marketing performance using analytics tools. Measure key metrics like traffic, conversions, engagement, and ROI. Use data to refine your strategies and allocate budget effectively.</p>
+    <h3>7. Influencer Partnerships</h3>
+    <p>Collaborate with influencers who align with your brand values. Authentic partnerships can expand your reach and build trust with new audiences.</p>
+    <p>Implementing these strategies requires consistency and continuous optimization. Monitor your results, test different approaches, and adapt based on what works best for your business.</p>`,
+		coverImage: {
+			publicId: "digital-marketing-strategies",
+			url: "https://cdn.dribbble.com/userupload/24740449/file/original-4302effc1d080e710bda1da49d0190e7.png?format=webp&resize=320x240&vertical=center"
+		},
+		category: ["Marketing", "Strategy"],
+		likes: [],
+		comments: [],
+		owner: "BrooCode Team",
+		created_at: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+		updated_at: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString()
+	},
+	{
+		_id: "6",
+		title: "Building a Strong Brand Identity: A Complete Guide for Digital Agencies",
+		description: "Discover how to create a compelling brand identity that resonates with your target audience and sets you apart from competitors.",
+		content: `<h2><b>Building a Strong Brand Identity: A Complete Guide for Digital Agencies</b></h2>
+    <p>A strong brand identity is the foundation of any successful business. It's how your audience perceives you, what makes you memorable, and what sets you apart from competitors. Here's how to build a compelling brand identity.</p>
+    <h3>1. Define Your Brand Values and Mission</h3>
+    <p>Start by clearly defining what your brand stands for. What are your core values? What's your mission? These elements should guide every decision you make and every piece of content you create.</p>
+    <h3>2. Know Your Target Audience</h3>
+    <p>Understanding your audience is crucial. Create detailed buyer personas that include demographics, pain points, goals, and preferences. Your brand identity should speak directly to these people.</p>
+    <h3>3. Develop Your Visual Identity</h3>
+    <p>Your visual identity includes your logo, color palette, typography, and imagery style. These elements should be consistent across all touchpoints and reflect your brand's personality.</p>
+    <h3>4. Craft Your Brand Voice</h3>
+    <p>Your brand voice is how you communicate with your audience. Is it professional and formal, or casual and friendly? Define your tone and ensure it's consistent in all communications.</p>
+    <h3>5. Create a Brand Style Guide</h3>
+    <p>Document your brand guidelines in a style guide. This ensures consistency across all marketing materials, whether created in-house or by external partners.</p>
+    <h3>6. Build Brand Awareness</h3>
+    <p>Consistently apply your brand identity across all channels. From your website to social media, email campaigns to physical materials, maintain consistency to build recognition and trust.</p>
+    <h3>7. Monitor and Evolve</h3>
+    <p>Brand identity isn't static. Monitor how your audience responds, gather feedback, and be willing to evolve while staying true to your core values.</p>
+    <p>A strong brand identity takes time to build, but the investment pays off in customer loyalty, recognition, and long-term success.</p>`,
+		coverImage: {
+			publicId: "brand-identity-guide",
+			url: "https://cdn.dribbble.com/userupload/27937147/file/original-d8e9899a4462a27e2a881f0bb335f383.jpg?format=webp&resize=320x240&vertical=center"
+		},
+		category: ["Branding", "Creative"],
+		likes: [],
+		comments: [],
+		owner: "BrooCode Team",
 		created_at: new Date().toISOString(),
 		updated_at: new Date().toISOString()
-	},
-
+	}
 ]
-
