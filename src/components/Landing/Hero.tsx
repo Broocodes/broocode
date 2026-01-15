@@ -10,13 +10,13 @@ export default function Hero() {
 	return (
 		<div
 			style={{
-				// background: "url('/space.webp')",
+				background: "url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/ec1c59106882405.5f99f129d0de9.gif')",
 				backgroundPosition: "center",
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
 				backgroundAttachment: 'scroll'
 			}}
-			className='h-[80vh] bg-black  flex flex-col bg-no-repeat bg-contain  justify-between items-center'>
+			className='h-[80vh] bg-black bg-blend-multiply  flex flex-col bg-no-repeat bg-contain  justify-between items-center'>
 
 			<div className='w-full flex justify-evenly'>
 				<div></div>

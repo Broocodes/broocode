@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import { Linkedin, Instagram, MessageCircle, Send } from 'lucide-react'
+import { Linkedin, Instagram, MessageCircle, Send, Loader2 } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import Footer from '@/components/Footer'
 
@@ -12,12 +12,54 @@ export default function ContactPage() {
     mobile: '',
     service: ''
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: 'success' | 'error' | null
+    message: string
+  }>({ type: null, message: '' })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log('Form submitted:', formData)
-    // You can add API call here
+    setIsSubmitting(true)
+    setSubmitStatus({ type: null, message: '' })
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await response.json()
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Thank you! Your message has been sent successfully. We\'ll get back to you soon!'
+        })
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          mobile: '',
+          service: ''
+        })
+      } else {
+        setSubmitStatus({
+          type: 'error',
+          message: data.error || 'Something went wrong. Please try again.'
+        })
+      }
+    } catch {
+      setSubmitStatus({
+        type: 'error',
+        message: 'Failed to send message. Please check your connection and try again.'
+      })
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -192,13 +234,36 @@ export default function ContactPage() {
                 </select>
               </div>
 
+              {/* Status Message */}
+              {submitStatus.type && (
+                <div
+                  className={`p-4 border-4 border-myblack font-inter font-semibold ${
+                    submitStatus.type === 'success'
+                      ? 'bg-accentColor text-myblack'
+                      : 'bg-red-500 text-white'
+                  }`}
+                >
+                  {submitStatus.message}
+                </div>
+              )}
+
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full h-14 bg-accentColor border-4 border-myblack text-myblack font-guzan font-bold text-xl hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all flex items-center justify-center gap-2"
+                disabled={isSubmitting}
+                className="w-full h-14 bg-accentColor border-4 border-myblack text-myblack font-guzan font-bold text-xl hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                <span>SEND MESSAGE</span>
-                <Send size={24} />
+                {isSubmitting ? (
+                  <>
+                    <Loader2 size={24} className="animate-spin" />
+                    <span>SENDING...</span>
+                  </>
+                ) : (
+                  <>
+                    <span>SEND MESSAGE</span>
+                    <Send size={24} />
+                  </>
+                )}
               </button>
             </form>
           </div>

@@ -46,8 +46,8 @@ const ReviewCard = ({
 	img: string;
 }) => {
 	return (
-		<div className="border-4 border-myblack bg-white shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] mx-2 md:mx-4">
-			<Image className="object-cover" width={300} height={300} alt="" src={img} />
+		<div className="border-4 border-myblack  shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] mx-2 md:mx-4">
+			<Image className="object-cover rounded-lg" width={300} height={300} alt="" src={img} />
 		</div>
 	);
 };
