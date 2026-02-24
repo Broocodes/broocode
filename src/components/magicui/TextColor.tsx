@@ -27,9 +27,9 @@ import React, {
 	> {
 	texts: string[];
 	transition?: Transition;
-	initial?: { y?: string | number; opacity?: number } | any;
-	animate?: { y?: string | number; opacity?: number } | any;
-	exit?: { y?: string | number; opacity?: number } | any;
+	initial?: { y?: string | number; opacity?: number } | unknown;
+	animate?: { y?: string | number; opacity?: number } | unknown;
+	exit?: { y?: string | number; opacity?: number } | unknown;
 	animatePresenceMode?: "sync" | "wait";
 	animatePresenceInitial?: boolean;
 	rotationInterval?: number;
