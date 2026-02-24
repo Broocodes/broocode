@@ -8,6 +8,7 @@ import React, {
 	useState,
   } from "react";
   import { motion, AnimatePresence, Transition } from "framer-motion";
+  import type { MotionProps } from "framer-motion";
   
   function cn(...classes: (string | undefined | null | boolean)[]): string {
 	return classes.filter(Boolean).join(" ");
@@ -27,9 +28,9 @@ import React, {
 	> {
 	texts: string[];
 	transition?: Transition;
-	initial?: { y?: string | number; opacity?: number } | unknown;
-	animate?: { y?: string | number; opacity?: number } | unknown;
-	exit?: { y?: string | number; opacity?: number } | unknown;
+	initial?: MotionProps["initial"];
+	animate?: MotionProps["animate"];
+	exit?: MotionProps["exit"];
 	animatePresenceMode?: "sync" | "wait";
 	animatePresenceInitial?: boolean;
 	rotationInterval?: number;
