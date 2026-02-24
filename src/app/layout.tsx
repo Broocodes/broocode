@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
 import "./globals.css";
+import Script from "next/script";
 
 const sink = localFont({
   src: [
@@ -60,6 +61,19 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${sink.variable} ${guzan.variable} ${inter.variable} antialiased`}>
         {children}
       </body>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-2KVJ5GVL0B"
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2KVJ5GVL0B');
+  `}
+      </Script>
     </html>
   );
 }
