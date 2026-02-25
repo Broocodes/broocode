@@ -7,5 +7,9 @@ module.exports = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  images: {
+    // allow next/image to load images from dribbble CDN used in blog data
+    domains: ['cdn.dribbble.com'],
+  },
 };
 
