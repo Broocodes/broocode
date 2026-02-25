@@ -1,12 +1,11 @@
-"use client"
 import { Search } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import TagsBox from "@/components/ui/Tags"
 import { Blogs } from "./Data"
 import { truncateText } from "@/lib/utils"
-import { useRouter } from "next/navigation"
 
 const filters = [
   { label: "All", count: 6 },
@@ -19,7 +18,6 @@ const filters = [
 ]
 
 export default function BlogPage() {
-  const router = useRouter()
   return (
     <div className="min-h-screen bg-myblack text-white py-8 md:py-12 lg:py-16">
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl">
@@ -37,8 +35,8 @@ export default function BlogPage() {
                   className="pl-10 md:pl-12 bg-white border-4 border-myblack text-myblack font-inter font-semibold h-12 md:h-14 w-full focus:outline-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0"
                 />
               </div>
+              </div>
             </div>
-          </div>
 
           {/* Filters */}
           <div className="bg-white border-4 md:border-8 border-myblack p-4 md:p-6 shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] md:shadow-[8px_8px_0px_0px_rgba(18,18,18,1)]">
@@ -60,9 +58,9 @@ export default function BlogPage() {
         {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {Blogs.map((blog) => (
-            <div
+            <Link
               key={blog._id}
-              onClick={() => router.push(`/blogs/${blog._id}`)}
+              href={`/blogs/${blog._id}`}
               className="bg-white border-4 md:border-8 border-myblack overflow-hidden shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] md:shadow-[8px_8px_0px_0px_rgba(18,18,18,1)] cursor-pointer hover:shadow-[8px_8px_0px_0px_rgba(162,242,62,1)] transition-all group"
             >
               <div className="relative">
@@ -81,7 +79,6 @@ export default function BlogPage() {
               </div>
               <div className="p-4 md:p-6 space-y-3 md:space-y-4">
                 <h2
-                  onClick={() => router.push(`/blogs/${blog._id}`)}
                   className="text-xl md:text-2xl lg:text-3xl font-guzan font-bold text-myblack hover:text-accentColor transition-colors line-clamp-2"
                 >
                   {blog.title}
@@ -97,7 +94,7 @@ export default function BlogPage() {
                   <span>5 min read</span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

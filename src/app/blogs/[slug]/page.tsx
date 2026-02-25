@@ -1,28 +1,30 @@
-"use client"
 import React from 'react'
 import { Blogs } from '../Data'
-import { useParams, useRouter } from 'next/navigation';
+import Link from 'next/link'
 import Image from 'next/image';
 import { ScrollProgress } from '@/components/ui/scroll-progress';
 import { ArrowLeft } from 'lucide-react';
 
-export default function Page() {
-	const { slug } = useParams()
-	const router = useRouter()
-
+export default async function Page({
+	params,
+  }: {
+	params: Promise<{ slug: string }>
+  }): Promise<React.ReactElement> {
+  
+	const { slug } = await params;
+  
 	const blog = Blogs.filter((blog) => blog._id === slug);
-
+  
 	if (!blog || blog.length === 0) {
 		return (
 			<div className="min-h-screen bg-myblack text-white flex items-center justify-center">
 				<div className="text-center">
 					<h1 className="text-4xl font-guzan font-bold text-accentColor mb-4">Blog Not Found</h1>
-					<button
-						onClick={() => router.push('/blogs')}
-						className="bg-accentColor border-4 border-myblack text-myblack px-6 py-3 font-bold font-inter hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all"
-					>
-						Back to Blogs
-					</button>
+					<Link href="/blogs">
+						<button className="bg-accentColor border-4 border-myblack text-myblack px-6 py-3 font-bold font-inter hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all">
+							Back to Blogs
+						</button>
+					</Link>
 				</div>
 			</div>
 		)
@@ -33,13 +35,12 @@ export default function Page() {
 			<ScrollProgress className="top-[0px]" />
 			<div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-5xl">
 				{/* Back Button */}
-				<button
-					onClick={() => router.push('/blogs')}
-					className="mb-6 md:mb-8 flex items-center gap-2 bg-accentColor border-4 border-myblack text-myblack px-4 md:px-6 py-2 md:py-3 font-bold font-inter hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all"
-				>
-					<ArrowLeft className="w-5 h-5" />
-					<span>Back to Blogs</span>
-				</button>
+				<Link href="/blogs" className="mb-6 md:mb-8 inline-flex items-center gap-2">
+					<button className="flex items-center gap-2 bg-accentColor border-4 border-myblack text-myblack px-4 md:px-6 py-2 md:py-3 font-bold font-inter hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all">
+						<ArrowLeft className="w-5 h-5" />
+						<span>Back to Blogs</span>
+					</button>
+				</Link>
 
 				{/* Blog Header */}
 				<div className="bg-accentColor border-4 md:border-8 border-myblack p-6 md:p-8 lg:p-10 shadow-[8px_8px_0px_0px_rgba(18,18,18,1)] mb-6 md:mb-8">

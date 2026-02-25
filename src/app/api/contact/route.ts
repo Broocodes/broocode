@@ -151,7 +151,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       {
         error: 'Failed to submit form',
-        details: process.env.NODE_ENV === 'development' ? errorMessage : undefined,
+        details: errorMessage,
       },
       { status: 500 }
     );

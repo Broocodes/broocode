@@ -9,6 +9,7 @@ import HeroSection from "@/components/Landing/HeroZero";
 import { MarqueeDemo } from "@/components/Landing/Marque";
 import ScrollVelocity from "@/components/magicui/markeuptext";
 import { HoverImageLinks } from "@/components/services";
+
 // import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import dynamic from 'next/dynamic'
 
@@ -22,6 +23,7 @@ export default function Home() {
         <FloatBar />
       </div> */}
       <Hero />
+     
       <MarqueeDemo />
       <Expand />
       <section className="bg-myblack border-t-8 border-b-8 border-accentColor py-8 md:py-12 lg:py-16">
