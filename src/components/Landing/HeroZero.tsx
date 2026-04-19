@@ -31,12 +31,12 @@ export default function HeroSection() {
           </div>
 
           {/* Image Container */}
-          <div className="relative h-[250px] w-full md:h-[400px] lg:h-[500px] border-8 border-myblack bg-white shadow-[8px_8px_0px_0px_rgba(18,18,18,1)]">
+          <div className="relative h-[300px] w-full md:h-[400px] lg:h-[500px] border-8 border-myblack bg-white shadow-[8px_8px_0px_0px_rgba(18,18,18,1)]">
             <Image
-              src="/walk.webp"
+              src="/3dai.webp"
               alt="Astronaut walking space dog"
               fill
-              className="object-contain p-4"
+              className="object-cover "
               priority
             />
           </div>

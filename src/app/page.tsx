@@ -3,18 +3,15 @@
 import Footer from "@/components/Footer";
 import Best from "@/components/Landing/Best";
 import BlackBox from "@/components/Landing/BlackBox";
+import Charactertranform from "@/components/Landing/Charactertranform";
 import Expand from "@/components/Landing/Expand";
-// import Hero from "@/components/Landing/Hero";
+import Hero from "@/components/Landing/Hero";
 import HeroSection from "@/components/Landing/HeroZero";
 import { MarqueeDemo } from "@/components/Landing/Marque";
 import ScrollVelocity from "@/components/magicui/markeuptext";
-import { HoverImageLinks } from "@/components/services";
+// import { HoverImageLinks } from "@/components/services";
 
 // import { MacbookScroll } from "@/components/ui/macbook-scroll";
-import dynamic from 'next/dynamic'
-
-
-const Hero = dynamic(() => import('@/components/Landing/Hero'))
 
 export default function Home() {
   return (
@@ -23,7 +20,7 @@ export default function Home() {
         <FloatBar />
       </div> */}
       <Hero />
-     
+     <Charactertranform />
       <MarqueeDemo />
       <Expand />
       <section className="bg-myblack border-t-8 border-b-8 border-accentColor py-8 md:py-12 lg:py-16">
@@ -40,15 +37,9 @@ export default function Home() {
         </div>
       </section>
       <HeroSection />
-      <HoverImageLinks />
+      {/* <HoverImageLinks /> */}
       <Best />
-      {/* <div className=' h-[170vh] md:h-[400vh] ' >
-        <MacbookScroll
-          src={`/win.webp`}
-          showGradient={true}
-        />
-      </div> */}
-  
+   
       <Footer />
     </div>
   );

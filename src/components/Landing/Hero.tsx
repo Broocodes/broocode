@@ -1,66 +1,187 @@
-import React from 'react'
-import { Lightbulb } from 'lucide-react';
-import Astro from '../svg/Astro';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { Lightbulb, Code2 } from "lucide-react";
+import AwesomeButton from "./ButtonCircle";
+import BigAwesomeButton from "./BigAwsome";
+
+const HERO_TAGS = [
+  "E-commerce",
+  "Fintech",
+  "Crypto",
+  "Robotics",
+  "Saas",
+  "VCs",
+  "Product Design",
+];
+
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.08 },
+  },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 20 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring", damping: 20, stiffness: 200 },
+  },
+};
 
 export default function Hero() {
-	
+  return (
+    <section className="relative w-full min-h-screen bg-[#fafafa] overflow-hidden flex flex-col">
 
-	return (
-		<div
-			style={{
-				background: "url('/agency.jpeg')",
-				backgroundPosition: "bottom",
-				// backgroundSize: "cover",
-				// backgroundRepeat: "no-repeat",
-				// backgroundAttachment: 'scroll'
-			}}
-			className='relative overflow-hidden h-[80vh] bg-black bg-blend-multiply  flex flex-col bg-no-repeat bg-cover  justify-between items-center'>
+      {/* Top CTA */}
+      <div className="w-full flex justify-end md:justify-center pt-6 px-6">
+        <div className="flex gap-3">
+          <Link
+            href="/blogs"
+            className="text-sm px-4 py-2.5 font-bold bg-accentColor text-myblack border-4 border-myblack hover:shadow-[4px_4px_0px_rgba(18,18,18,1)] transition"
+          >
+            Blogs
+          </Link>
 
-			{/* Background video (public/broocode.mp4) */}
-			<video
-				src="/broocode.mp4"
-				autoPlay
-				muted
-				loop
-				playsInline
-				className="absolute inset-0 w-full h-full object-cover z-0"
-			/>
-			{/* Overlay to darken video for readability */}
-			{/* <div className="absolute inset-0 bg-black/45 z-10 pointer-events-none" /> */}
+          <Link
+            href="/contact"
+            className="text-sm px-4 py-2.5 font-bold border-4 border-accentColor bg-myblack text-accentColor hover:bg-accentColor hover:text-myblack hover:shadow-[4px_4px_0px_rgba(162,242,62,1)] flex items-center gap-2 transition"
+          >
+            Get in Touch <Lightbulb size={16} />
+          </Link>
+        </div>
+      </div>
 
-			<div className='w-full flex justify-evenly relative z-20'>
-				<div></div>
-				<div className='mt-6 md:mt-10 gap-x-3 md:gap-x-4 flex'>
-					<Link 
-						href={'/blogs'} 
-						className='text-xs md:text-sm p-2 md:p-3 px-4 md:px-5 font-bold font-inter bg-accentColor text-myblack border-4 border-myblack flex gap-x-2 hover:shadow-[4px_4px_0px_0px_rgba(18,18,18,1)] transition-all items-center'
-					> 
-						Blogs
-					</Link>
+      <motion.div
+        variants={container}
+        initial="hidden"
+        animate="show"
+        className="container mx-auto  px-6 pt-10 pb-16 flex-1"
+      >
+        {/* Title */}
+        <motion.div
+          variants={item}
+          className="text-center mb-0"
+        >
+          <h1 className="font-guzan font-bold leading-[1.05] mt-4 tracking-tight">
 
-					<Link 
-						href={'/contact'} 
-						className='text-xs md:text-sm p-2 md:p-3 px-4 md:px-5 font-bold font-inter border-4 border-accentColor bg-myblack text-accentColor flex gap-x-2 hover:bg-accentColor hover:text-myblack hover:shadow-[4px_4px_0px_0px_rgba(162,242,62,1)] transition-all items-center'
-					>  
-						Get in Touch <Lightbulb size={18} />
-					</Link>
-				</div>
-			</div>
+            <span className="block text-accentColor text-5xl md:text-7xl  lg:text-[5rem]">
+              Development
+            </span>
 
+            <span className="flex justify-center items-center gap-3 text-6xl md:text-7xl lg:text-[5rem]">
+              <Code2 className="w-10 h-10 md:w-12 md:h-12" strokeWidth={2.5} />
+              Agency;
+              {/* <span className="w-3 h-3 bg-myblack rounded-sm">;</span> */}
+            </span>
 
-			<div className='px-4 hidden relative z-20'>
-				<h1 className='hidden text-5xl md:text-8xl lg:text-9xl mt-2 font-guzan md:flex items-center text-transparent font-bold tracking-tight'>Br
-					<Image src='/infinity.png' className='mr-1' width={180} height={180} alt='infi' />
-					Code</h1>
-				<Image src='/logo.svg' className='md:hidden flex mx-auto' width={290} height={290} alt='logo' />
-				<h1 className='text-white text-center font-guzan text-2xl md:text-4xl lg:text-5xl font-bold mt-2'>We Are Digital Agency</h1>
-			</div>
-			<div className="relative z-20">
-				<Astro />
-			</div>
-		</div>
-	)
+          </h1>
+        </motion.div>
+
+        <Image
+          src="/Bestdesign.png"
+          alt="BrooCode"
+          width={720}
+          height={720}
+          className="md:block absolute hidden top-0 left-0 w-32 h-32 md:w-80 md:h-80"
+        />
+        <Image
+          src="/infinity.svg"
+          alt="BrooCode"
+          width={720}
+          height={720}
+          className="md:hidden absolute top-2 left-4 w-20 h-20 md:w-80 md:h-80"
+        />
+
+        <div className="   absolute md:block hidden  md:-top-28   md:-right-24">
+          <BigAwesomeButton />
+        </div>
+
+        {/* 3 Column Layout */}
+        <div className="grid lg:grid-cols-12 gap-10 items-center">
+
+          {/* LEFT TEXT */}
+      
+          <motion.div
+            variants={item}
+            className="lg:col-span-3 md:block hidden"
+          >
+            <div className="bg-white border-4 border-myblack p-6 rounded-xl shadow-[6px_6px_0px_rgba(18,18,18,1)]">
+
+              <p className="font-inter text-lg leading-relaxed font-medium flex gap-3">
+                {/* <span className="w-2 h-2 rounded-full bg-myblack mt-3"></span> */}
+                We build digital products that work better, feel smoother, and keep users coming back. Simple ideas, strong development, and experiences people love.
+              </p>
+
+            </div>
+          </motion.div>
+
+          {/* CENTER IMAGE */}
+          <motion.div
+            variants={item}
+            className="lg:col-span-6 flex justify-center"
+          >
+            <div className="relative w-full max-w-xl h-[370px] md:h-[520px] rounded-2xl overflow-hidden ">
+
+              <Image
+                src="/3d.gif"
+                alt="Development agency team"
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 576px"
+                unoptimized
+                className="object-cover"
+              />
+
+            </div>
+          </motion.div>
+
+          {/* RIGHT SIDE */}
+          <motion.div
+            variants={item}
+            className="lg:col-span-3 flex flex-col items-start lg:items-end gap-8"
+          >
+
+            {/* TAGS */}
+            <div className="grid grid-cols-3 md:grid-cols-2 md:gap-x-10 gap-y-2 text-base font-semibold">
+              {HERO_TAGS.map((tag) => (
+                <span key={tag}>{tag}</span>
+              ))}
+            </div>
+
+            {/* STATS */}
+            <div className="flex items-center gap-4">
+
+              <div className="relative w-16 h-16 rounded-lg overflow-hidden border-2 border-myblack">
+                <Image
+                  src="/studio.webp"
+                  alt=""
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="flex flex-col">
+                <span className="font-guzan font-bold text-3xl">30+</span>
+                <span className="text-sm font-semibold opacity-70">
+                  Projects Delivered
+                </span>
+              </div>
+
+              <AwesomeButton />
+
+            </div>
+
+          </motion.div>
+
+        </div>
+      </motion.div>
+    </section>
+  );
 }
-
