@@ -1,3 +1,5 @@
+const path = require('path');
+
 /** Allow production build to proceed even if TypeScript reports errors
  *  This is a pragmatic fix for CI environments (Netlify) where type-checking
  *  can fail the build even when the app runs correctly. Prefer fixing type
@@ -10,6 +12,13 @@ module.exports = {
   images: {
     // allow next/image to load images from dribbble CDN used in blog data
     domains: ['cdn.dribbble.com'],
+  },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      '@': path.resolve(__dirname, 'src'),
+    };
+    return config;
   },
 };
 
