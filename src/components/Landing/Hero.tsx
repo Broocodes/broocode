@@ -44,14 +44,14 @@ export default function Hero() {
         <div className="flex gap-3">
           <Link
             href="/blogs"
-            className="text-sm px-4 py-2.5 font-bold bg-accentColor text-myblack border-4 border-myblack hover:shadow-[4px_4px_0px_rgba(18,18,18,1)] transition"
+            className="text-sm px-4 py-2.5 font-inter font-bold bg-accentColor text-myblack border-4 border-myblack shadow-[4px_4px_0px_rgba(18,18,18,1)] transition"
           >
             Blogs
           </Link>
 
           <Link
             href="/contact"
-            className="text-sm px-4 py-2.5 font-bold border-4 border-accentColor bg-myblack text-accentColor hover:bg-accentColor hover:text-myblack hover:shadow-[4px_4px_0px_rgba(162,242,62,1)] flex items-center gap-2 transition"
+            className="text-sm px-4 py-2.5 font-bold border-4 border-accentColor bg-myblack text-accentColor hover:bg-accentColor hover:text-myblack shadow-[4px_4px_0px_rgba(162,242,62,1)] flex items-center gap-2 transition"
           >
             Get in Touch <Lightbulb size={16} />
           </Link>
@@ -62,16 +62,20 @@ export default function Hero() {
         variants={container}
         initial="hidden"
         animate="show"
-        className="container mx-auto  px-6 pt-10 pb-16 flex-1"
+        className="container mx-auto  md:px-20 px-6 pt-10 pb-16 flex-1"
       >
         {/* Title */}
         <motion.div
           variants={item}
           className="text-center mb-0"
         >
-          <h1 className="font-guzan font-bold leading-[1.05] mt-4 tracking-tight">
+          <h1 className="font-guzan font-bold leading-[1.05] mt-4 tracking-tight" style={{
+            textShadow: '2px 2px 0px rgba(0, 0, 0, 2.1)',
+          }}>
 
-            <span className="block text-accentColor text-5xl md:text-7xl  lg:text-[5rem]">
+            <span className="block text-accentColor  text-5xl md:text-7xl  lg:text-[5rem]"
+
+            >
               Development
             </span>
 
@@ -107,7 +111,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-12 gap-10 items-center">
 
           {/* LEFT TEXT */}
-      
+
           <motion.div
             variants={item}
             className="lg:col-span-3 md:block hidden"

@@ -74,12 +74,27 @@ export default function ContactPage() {
       {/* Header Section */}
       <div className="bg-myblack border-b-8 border-accentColor">
         <div className="container mx-auto px-4 py-12 md:py-20">
-          <h1 className="text-5xl md:text-8xl font-guzan font-bold mb-4 text-accentColor">
-            GET IN TOUCH
-          </h1>
-          <p className="text-xl md:text-2xl font-inter text-gray-300 max-w-2xl">
-            Let&apos;s build something amazing together. Drop us a line and we&apos;ll get back to you as soon as possible.
-          </p>
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 md:gap-8">
+            <div>
+              <h1 className="text-5xl md:text-8xl font-guzan font-bold mb-4 text-accentColor">
+                GET IN TOUCH
+              </h1>
+              <p className="text-xl md:text-2xl font-inter text-gray-300 max-w-2xl">
+                Let&apos;s build something amazing together. Drop us a line and we&apos;ll get back to you as soon as possible.
+              </p>
+            </div>
+
+            <a
+              href="https://wa.me/918938850519"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat with us on WhatsApp"
+              className="inline-flex w-full md:w-auto items-center justify-center gap-2 self-start bg-white border-4 border-accentColor text-myblack font-inter font-bold text-base md:text-lg px-5 py-3 md:px-6 md:py-4 shadow-[4px_4px_0px_0px_rgba(162,242,62,1)] hover:shadow-[6px_6px_0px_0px_rgba(162,242,62,1)] hover:-translate-y-0.5 transition-all"
+            >
+              <MessageCircle size={22} className="flex-shrink-0" />
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -271,6 +286,8 @@ export default function ContactPage() {
       </div>
 
       <Footer />
+
+     
     </div>
   )
 }
